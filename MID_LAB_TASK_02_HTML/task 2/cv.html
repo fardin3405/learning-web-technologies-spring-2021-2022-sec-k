@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Curriculum Vitae</title>
+	<style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+   background-color: #f3f3f3;
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 900px;
+  height: 760px;
+  display: flex;
+  box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+}
+
+.wrapper .left{
+	  width: 30%;
+	  background: linear-gradient(to right,#7b95a6,#aed2eb);
+	  padding: 30px 25px;
+	  border-top-left-radius: 5px;
+	  border-bottom-left-radius: 5px;
+	  text-align: center;
+	  color: #fff;
+}
+
+.wrapper .left img{
+	width: 220px;
+	height: 220px;
+ 	border-radius: 7px;
+ 	margin-bottom: 20px;
+
+}
+
+.wrapper .left h4{
+	font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.wrapper .left p{
+  font-size: 16px;
+}
+
+.wrapper .right{
+  width: 70%;
+  background: #fff;
+  padding: 30px 25px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.wrapper .right .info,
+.wrapper .right .projects,
+.wrapper .right .expe,
+.wrapper .right .additional,
+.wrapper .right .contact{
+  margin-bottom: 20px;
+}
+
+.wrapper .right .info h3,
+.wrapper .right .projects h3,
+.wrapper .right .expe h3,
+.wrapper .right .additional h3,
+.wrapper .right .contact h3{
+    margin-bottom: 5px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #353c4e;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.wrapper .right .info_data,
+.wrapper .right .projects_data,
+.wrapper .right .expe_data,
+.wrapper .right .additional_data,
+.wrapper .right .contact_data{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .right .info_data .data,
+.wrapper .right .expe_data .data,
+.wrapper .right .contact_data .data{
+  width: 100%;
+}
+.wrapper .right .projects_data .data,
+.wrapper .right .additional_data .data{
+  width: 45%;
+}
+
+.wrapper .right .info_data .data h4,
+.wrapper .right .projects_data .data h4,
+.wrapper .right .expe_data .data h4,
+.wrapper .right .additional_data .data h4,
+.wrapper .right .contact_data .data h4{
+	font-size: 12px;
+    color: #353c4e;
+    margin-bottom: 4px;
+}
+
+.wrapper .right .projects_data .data p,
+.wrapper .right .additional_data .data p{
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #50565c;
+}
+	</style>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="left">
+        <img src="Scan 2.jpg" 
+        alt="user" width="100">
+        <h4>Fardin Rahman</h4>
+         <p>CSE Engineer</p>
+    </div>
+    <div class="right">
+        <div class="info">
+            <h3>Career Objective</h3>
+            <div class="info_data">
+                 <div class="data">
+                    <h4>Solving issues that others can't, usually in an agile or high pressure environment that requires learning new languages or software. I have 2+ years of software/application support, but creating proof-of-concepts for new technology is what interested me most in my previous role.</h4>
+                 </div>
+            </div>
+        </div>
+      
+      	<div class="projects">
+            <h3>ACADEMIC BACKGROUND</h3>
+            <div class="projects_data">
+                 <div class="data">
+                    <h4>American international University - Bangladesh</h4>
+                    <p>Bachelor of computer science and engineering 2023
+                    <br>- Attended from 2019 to 2023
+                	<br>- Graduated with Honors
+            		<br>- Cgpa - 3.72
+        			<br>- Executive member of AIUB SHOMOY clib.
+        			</p>
+                 </div>
+                 <div class="data">
+                   <h4>Dhaka Imperial College</h4>
+                    <p>Batch 2019 - GPA of 4.95 <br>- volunteer in social works <br>- member of LIO club</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="expe">
+            <h3>WORK EXPERIENCE</h3>
+            <div class="expe_data">
+                 <div class="data">
+                    <h4>MobiTrack Ltd Intern | December 2023 - Present Provided un-tiered, onsite support to main office - Implemented Security protocols Migrated from IMAP/POP to on-premise Exchange Tested, developed and deployed procedures for centralized management Instituted user ticketing via Spiceworks Resolved problems with remote site communications such as remote joining to AD - Preparing and maintaining company images for desktops and laptops, and best practice implementation including password policy, pc timeout and service accounts for all network devices. - Worked with network security to develop information security process and procedures. - Implementation of open-source NetSaint Network Monitor as a cost effective solution for monitoring all mission critical servers running Windows and Linux/BSD variants.</h4>
+                 </div>
+            </div>
+        </div>
+
+        <div class="additional">
+            <h3>ACHIEVEMENTS AND SKILLS</h3>
+            <div class="additional_data">
+                 <div class="data">
+                    <h4>Competencies</h4>
+                    <p>Software support. ETL development. C development, database administration. VBA development, software installer development, database analytics <br>- Good communication skills <br>- Clear concept of computer networking <br>- Can multitask with a clear mind
+        			</p>
+                 </div>
+                 <div class="data">
+                   <h4>Accomplishments</h4>
+                    <p>- Awareded top intern in 2023 by mobitrack <br>- Prevented severe damage to a reputed company</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h3>Contact Details</h3>
+            <div class="contact_data">
+                 <div class="data">
+                    <h4>Mobile: +8801886659969<br>
+                    Email: fardin34055@gmail.com<br>
+                	Hometown: Kishoreganj, Mymenshingh<br>
+                	Address: 1088/A khilgaon tilpapara. Road no. 20 Dhaka - 1219</h4>
+                 </div>
+            </div>
+        </div>
+      
+    </div>
+</div>
+
+</body>
+</html>
